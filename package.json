@@ -8,6 +8,14 @@
   "config": {
     "puppeteer_download_host": "https://npm.taobao.org/mirrors"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teal-front/prepublish-page-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teal-front/prepublish-page-check/issues"
+  },
+  "homepage": "https://github.com/teal-front/prepublish-page-check#readme",
   "engines": {
     "node": ">=6.4.0"
   },
