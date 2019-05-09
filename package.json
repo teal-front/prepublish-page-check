@@ -1,0 +1,20 @@
+{
+  "name": "prepublish-page-check",
+  "version": "1.0.0",
+  "description": "post build, check page error",
+  "main": "index.js",
+  "author": "teal.yao",
+  "license": "MIT",
+  "config": {
+    "puppeteer_download_host": "https://npm.taobao.org/mirrors"
+  },
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "bin": {
+    "prepublish-page-check": "./index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^1.14.0"
+  }
+}
