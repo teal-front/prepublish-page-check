@@ -1,6 +1,6 @@
 {
   "name": "prepublish-page-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "post build, check page error",
   "main": "index.js",
   "author": "teal.yao",
