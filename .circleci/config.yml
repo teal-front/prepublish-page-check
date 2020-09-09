@@ -1,0 +1,19 @@
+version: 2.1
+orbs:
+  node: circleci/node@3.0.0
+
+step_install_deps: &install_deps
+  run:
+    name: Install Dependencies
+    command: yarn --frozen-lockfile
+
+jobs:
+  test:
+    steps:
+      - checkout
+      - *install_deps
+
+workflows:
+  node-tests:
+    jobs:
+      - test
